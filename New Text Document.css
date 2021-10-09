@@ -1,0 +1,58 @@
+body{
+	margin: 0px;
+}
+
+.content{
+	margin: auto;
+	width: 100%;
+	max-width: 960px;
+	background: #140;
+}
+
+.flex-content{
+	display: flex;
+
+}
+
+
+
+.item{
+width: 100px;
+height: 100px;
+
+}
+.a{
+
+background: red;
+	flex-shrink: 20;
+	flex-grow: 5;
+
+
+
+
+
+animation-name: jjj;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+position: relative;}
+
+
+@keyframes jjj{
+0%{background: red; left: 0px;}
+50%{background: green;}
+100%{background: red; left: 300px}
+
+}
+
+
+	
+
+.b{background: green;
+	flex-grow: 20;
+	flex-shrink: 10;
+}
+.c{
+background: blue;
+	flex-grow:  10;
+	flex-shrink: 5;
+}
